@@ -6,7 +6,7 @@
 .work-sans-normal {
   font-family: "Work Sans", serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: none;
   font-style: normal;
 }
 
@@ -39,6 +39,23 @@ body{
     font-weight: 600;
     font-size: 18px;
     color: #006A50;
+}
+
+
+.primary-heading{
+    font-weight: bold;
+    font-size: 40px;
+}
+.primary-bold-p{
+    font-weight: bold;
+    font-size: 20px;
+    padding: 24px 0px 12px 0px;
+}
+
+.primary-p{
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(14, 14, 14, 0.7);
 }
 
 
@@ -82,9 +99,7 @@ nav{
 
 
 /* banner section */
-/* main{
-    width: 1280px;
-} */
+
 
 .banner{
     display: flex;
@@ -115,4 +130,168 @@ nav{
     font-weight: bold;
     font-size: 56px;
     padding: 16px 0px 20px 0px;
+}
+
+/* Pillars section css */
+
+.pillars{
+    margin: 80px 160px;
+}
+.pillars-heading{
+    padding-bottom: 30px;
+}
+
+.pillars-card{
+    display: flex;
+    gap: 24px;
+}
+
+.card{
+    background-color: #FFFFFF;
+    padding: 24px;
+    border-radius: 16px;
+}
+
+/* Vision section CSS */
+
+.card-b-01{
+    background-color: rgba(84, 144, 245, 0.2);
+}
+.card-b-02{
+    background-color: rgba(198, 228, 214, 1);
+}
+
+.card-b-03{
+    background-color: rgba(247, 235, 207, 1);
+}
+
+.section-p{
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(14, 14, 14, 0.7);
+    padding-bottom: 32px;
+}
+
+.section-btn-a{
+    text-decoration: none;
+}
+
+.common-section-btn{
+    padding: 15px 30px;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.common-section-btn:hover{
+    padding: 15px 30px;
+    background-color: transparent;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.section-btn-01{
+    background-color: #5490F5;
+    color: #FFFFFF;
+    margin-top: 32px;
+}
+
+.section-btn-01:hover{
+    border: 1px solid #5490F5;
+    color: #5490F5;
+}
+
+.section-btn-02{
+    background-color: #09A15C;
+    color: #FFFFFF;
+    margin-top: 32px;
+}
+
+.section-btn-02:hover{
+    border: 1px solid #09A15C;
+    color: #09A15C;
+}
+
+.section-btn-03{
+    background-color: #FFC239;
+    color: #FFFFFF;
+    margin-top: 32px;
+}
+
+.section-btn-03:hover{
+    border: 1px solid #FFC239;
+    color: #FFC239;
+}
+
+/* yunus Section css */
+
+.yunus{
+    background-image: url("../assets/quote-bg.png");
+    background-repeat: no-repeat;
+    background-position: 24px 24px;
+    margin: 0px 160px 0px 160px;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    padding: 48px 24px;
+}
+
+.section-bold-p{
+    font-weight: bold;
+    font-size: 20px;
+    padding: 12px 0px 4px 0px;
+}
+
+/* Opinion */
+
+/* Recent news */
+
+.recent-news{
+    margin: 80px 160px;
+}
+
+.news-p{
+    padding: 24px 0px 32px 0px;
+}
+
+.satellite{
+    display: flex;
+    gap: 32px;
+    align-items: center;
+    background-color: #FFFFFF;
+    padding: 48px;
+    border-radius: 24px;
+}
+
+.satelite-img{
+    border-radius: 24px;
+}
+
+.satellite-content-h{
+    font-weight: bold;
+    font-size: 32px;
+    color: rgba(14, 14, 14, 0.8);
+}
+
+.aljazeera{
+    padding: 12px 0px;
+}
+
+.satelite-p{
+    padding: 12px 0px 32px 0px;
+}
+
+/* Satelite 02 css */
+
+.satellite-02{
+    display: flex;
+    gap: 32px;
+    align-items: center;
+    background-color: #FFFFFF;
+    padding: 48px;
+    border-radius: 24px;
+    flex-direction: row-reverse;
+    margin: 24px 0px;
 }
