@@ -263,6 +263,72 @@ nav{
 
 /* Opinion */
 
+.opinion{
+    margin: 80px 160px;
+}
+
+.question-part{
+    background-color: #FFFFFF;
+    padding: 32px;
+    margin-top: 24px;
+    border-radius: 16px;
+}
+
+.question-table{
+    width: 100%;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.question-table th{
+    border: none;
+    background-color: #C6E4D6;
+    padding: 24px;
+}
+
+.question-table h4{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.question-table td{
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    padding: 24px;
+}
+
+.question-table td p{
+    font-weight: 600;
+    font-size: 16px;
+    color: rgba(14, 14, 14, 1);
+    margin-right: 150px ;
+}
+
+.question-table .btn{
+    padding: 10px 14px;
+    background-color: #C6E4D6;
+    border: 1px solid rgba(14, 14, 14, 1);
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 45px;
+    cursor: pointer;
+}
+
+.question-table .btn:hover{
+    padding: 10px 14px;
+    background-color: #FFFFFF;
+    border: 1px solid rgba(14, 14, 14, 1);
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 45px;
+    cursor: pointer;
+}
+
+
+
+
 /* Recent news */
 
 .recent-news{
@@ -359,6 +425,18 @@ nav{
     padding: 40px;
     border-radius: 16px;
     border: 1px solid rgba(14, 14, 14, 0.15);
+}
+
+.taka-card:hover{
+    background-color: #C6E4D6;
+    padding: 40px;
+    border-radius: 16px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    cursor: pointer;
+}
+
+.card-backgound{
+    background-color: #C6E4D6;
 }
 
 .taka-heading{
