@@ -23,7 +23,7 @@ body{
 .primary-btn{
     padding: 15px 30px;
     background-color: #006A50;
-    border: none;
+    border: 1px solid #006A50;
     border-radius: 8px;
     font-weight: 600;
     font-size: 18px;
@@ -155,15 +155,23 @@ nav{
 
 /* Vision section CSS */
 
+.vision-card{
+    display: flex;
+    gap: 24px;
+}
+
 .card-b-01{
     background-color: rgba(84, 144, 245, 0.2);
+    width: 410.67px;
 }
 .card-b-02{
     background-color: rgba(198, 228, 214, 1);
+    width: 410.67px;
 }
 
 .card-b-03{
     background-color: rgba(247, 235, 207, 1);
+    width: 410.67px;
 }
 
 .pillars-p{
@@ -200,6 +208,7 @@ nav{
 
 .card-btn-01{
     background-color: #5490F5;
+    border: 1px solid #5490F5;;
     color: #FFFFFF;
     margin-top: 32px;
 }
@@ -211,6 +220,7 @@ nav{
 
 .card-btn-02{
     background-color: #09A15C;
+    border: 1px solid #09A15C;
     color: #FFFFFF;
     margin-top: 32px;
 }
@@ -222,6 +232,7 @@ nav{
 
 .card-btn-03{
     background-color: #FFC239;
+    border: 1px solid #FFC239;
     color: #FFFFFF;
     margin-top: 32px;
 }
