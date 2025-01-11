@@ -272,6 +272,7 @@ nav{
     padding: 32px;
     margin-top: 24px;
     border-radius: 16px;
+    height: 409px;
 }
 
 .question-table{
@@ -311,7 +312,7 @@ nav{
     border-radius: 4px;
     font-size: 16px;
     font-weight: 400;
-    margin-left: 45px;
+    margin-left: 75px;
     cursor: pointer;
 }
 
@@ -322,7 +323,7 @@ nav{
     border-radius: 4px;
     font-size: 16px;
     font-weight: 400;
-    margin-left: 45px;
+    margin-left: 75px;
     cursor: pointer;
 }
 
