@@ -153,6 +153,13 @@ nav{
     border-radius: 16px;
 }
 
+.pillar-card:hover{
+    background-color: #FFFFFF;
+    padding: 24px;
+    border-radius: 16px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.349);
+}
+
 /* Vision section CSS */
 
 .vision-card{
@@ -162,16 +169,19 @@ nav{
 
 .card-b-01{
     background-color: rgba(84, 144, 245, 0.2);
-    width: 410.67px;
+    width: 475px;
+    height: 325px;
 }
 .card-b-02{
     background-color: rgba(198, 228, 214, 1);
-    width: 410.67px;
+    width: 475px;
+    height: 325px;
 }
 
 .card-b-03{
     background-color: rgba(247, 235, 207, 1);
-    width: 410.67px;
+    width: 475px;
+    height: 325px;
 }
 
 .pillars-p{
@@ -182,11 +192,7 @@ nav{
 }
 
 .card-p{
-    padding-bottom: 48px;
-}
-
-.card-btn-a{
-    text-decoration: none;
+    padding-bottom: 25px;
 }
 
 .common-section-btn{
